@@ -11,7 +11,11 @@ grid-template-rows: 50px 100vh auto;
 }
 
 .cabecalho {
+    align-items: center;
+    display: flex;
     grid-area: cabecalho;
+    padding: 0 2rem;
+    
 }
  
 .conteudo {
